@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template: Directory.Build.props for a BSIPA plugin.
+     Replace every placeholder. GameVersion must exactly match the build you compile against. -->
+<Project>
+  <PropertyGroup>
+    <PluginId>MyMod</PluginId>
+    <PluginName>MyMod</PluginName>
+    <Authors>YourName</Authors>
+    <Version>1.0.0</Version>
+    <GameVersion>1.40.8</GameVersion>
+    <Description>Short description of what the mod does.</Description>
+
+    <ProjectSource>https://github.com/you/MyMod</ProjectSource>
+    <ProjectHome>https://github.com/you/MyMod</ProjectHome>
+    <Donate></Donate>
+    <PluginIcon>icon.png</PluginIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Keep a Version on every dependency. setup-beat-saber requires it, and it
+         uses npm semver (4.3.7, ^4.3.6), not NuGet bracket ranges ([4.3.7]). -->
+    <DependsOn Include="BSIPA" Version="4.3.7" />
+    <!-- Add only what the mod actually needs.
+    <DependsOn Include="BeatSaberMarkupLanguage" Version="1.14.2" />
+    <DependsOn Include="SiraUtil" Version="3.4.0" />
+    -->
+  </ItemGroup>
+</Project>

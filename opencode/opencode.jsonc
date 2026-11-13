@@ -1,0 +1,116 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "context7": {
+        "type": "remote",
+        "url": "https://mcp.context7.com/mcp"
+      },
+      "exa": {
+        "type": "remote",
+        "url": "https://mcp.exa.ai/mcp"
+      },
+      "github-copilot": {
+        "type": "remote",
+        "url": "https://api.githubcopilot.com/mcp/",
+        "headers": {
+          "Authorization": "Bearer {env:GITHUB_PERSONAL_ACCESS_TOKEN}"
+        },
+        "oauth": false
+      },
+      "beatapi": {
+        "type": "remote",
+        "url": "https://beatapi.io/mcp",
+        "headers": {
+          "Authorization": "Bearer {env:BEATAPI_API_KEY}"
+        },
+        "oauth": false
+      },
+      "microsoft-learn": {
+        "type": "remote",
+        "url": "https://learn.microsoft.com/api/mcp"
+      },
+      "playwright": {
+        "type": "local",
+        "command": ["cmd", "/c", "npx", "-y", "@playwright/mcp@latest"],
+        "timeout": {
+          "startup": 120000
+        },
+        "disabled": true
+      },
+      "duckduckgo": {
+        "type": "local",
+        "command": ["uvx", "duckduckgo-mcp-server"],
+        "timeout": {
+          "startup": 120000
+        }
+      },
+      "markitdown": {
+        "type": "local",
+        "command": ["uvx", "markitdown-mcp@0.0.1a8"],
+        "timeout": {
+          "startup": 120000
+        },
+        "disabled": true
+      },
+      "nuget": {
+        "type": "local",
+        "command": [
+          "cmd",
+          "/c",
+          "dnx",
+          "NuGet.Mcp.Server@1.4.16",
+          "--yes",
+          "--source",
+          "https://api.nuget.org/v3/index.json"
+        ],
+        "timeout": {
+          "startup": 300000
+        },
+        "disabled": true
+      },
+      "beatSaberModdingTools": {
+        "type": "local",
+        "command": [
+          "uvx",
+          "--from",
+          "git+https://github.com/denpadokei/BeatSaberModdingToolsMCP",
+          "bsmt-mcp"
+        ],
+        "timeout": {
+          "startup": 900000
+        },
+        "disabled": false
+      },
+      "unity": {
+        "type": "remote",
+        "url": "http://localhost:8080/mcp",
+        "disabled": true
+      }
+    }
+  },
+  "plugins": [
+    "oh-my-opencode-slim",
+    "@tarquinen/opencode-dcp@latest",
+    "opencode-navigator",
+    "oc-flight-deck",
+    "@prevalentware/opencode-goal-plugin",
+    "opencode-claude-memory"
+  ],
+  "agents": {
+    "opencode-memory-recall": {
+      "model": "opencode-go/qwen3.8-flash#low",
+      "steps": 20
+    },
+    "opencode-memory-extract": {
+      "model": "opencode-go/minimax-m3.1-flash#low"
+    },
+    "opencode-memory-dream": {
+      "model": "opencode-go/qwen3.8-flash#medium"
+    }
+  },
+  "lsp": true,
+  "compaction": {
+    "auto": false
+  }
+}

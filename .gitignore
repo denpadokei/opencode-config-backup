@@ -1,0 +1,16 @@
+# secrets are never committed (defense in depth; backup.ps1 never copies them)
+service.json
+relay-identity.json
+git-credential-endpoint.json
+*token*
+*.key
+
+# machine-specific settings (paths, session ids). backed up locally only.
+openchamber/settings.local.json
+
+# state files with personal information; backup.ps1 no longer copies them
+discovered-apps.json
+tracked-items.json
+sessions-directories.json
+push-open-tags.json
+opencode-trust.json

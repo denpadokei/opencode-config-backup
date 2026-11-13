@@ -1,0 +1,102 @@
+{
+  "$schema": "https://unpkg.com/oh-my-opencode-slim@latest/oh-my-opencode-slim.schema.json",
+  "preset": "free",
+  "presets": {
+    "free": {
+      "orchestrator": {
+        "model": "opencode/deepseek-v4.1-flash-free",
+        "variant": "max",
+        "skills": [
+          "*"
+        ]
+      },
+      "oracle": {
+        "model": "opencode/glm-5.3-flash-free",
+        "variant": "max",
+        "skills": [
+          "simplify"
+        ]
+      },
+      "explorer": {
+        "model": "opencode/flint-40b-free",
+        "variant": "low",
+        "skills": []
+      },
+      "designer": {
+        "model": "opencode/nemotron-3.5-super-vl-free",
+        "variant": "medium",
+        "skills": []
+      },
+      "fixer": {
+        "model": "opencode/deepseek-v4.1-flash-free",
+        "variant": "high",
+        "skills": []
+      }
+    },
+    "openai": {
+      "orchestrator": {
+        "model": "openai/gpt-6.1-sol",
+        "variant": "medium",
+        "skills": [
+          "*"
+        ]
+      },
+      "oracle": {
+        "model": "openai/gpt-6.1-sol",
+        "variant": "high",
+        "skills": [
+          "simplify"
+        ]
+      },
+      "explorer": {
+        "model": "openai/gpt-6-luna",
+        "variant": "low",
+        "skills": []
+      },
+      "designer": {
+        "model": "openai/gpt-6-luna",
+        "variant": "medium",
+        "skills": []
+      },
+      "fixer": {
+        "model": "openai/gpt-6.1-sol",
+        "variant": "low",
+        "skills": []
+      }
+    },
+    "opencode-go": {
+      "orchestrator": {
+        "model": "opencode-go/minimax-m3",
+        "variant": "thinking",
+        "skills": [
+          "*"
+        ]
+      },
+      "oracle": {
+        "model": "opencode-go/qwen3.7-max",
+        "variant": "max",
+        "skills": [
+          "simplify"
+        ]
+      },
+      "explorer": {
+        "model": "opencode-go/deepseek-v4-flash",
+        "variant": "high",
+        "skills": []
+      },
+      "designer": {
+        "model": "opencode-go/kimi-k2.7-code",
+        "skills": []
+      },
+      "fixer": {
+        "model": "opencode-go/deepseek-v4-flash",
+        "variant": "high",
+        "skills": []
+      },
+      "observer": {
+        "model": "opencode-go/mimo-v2.5",
+        "skills": []
+      }
+    }
+  }
+}

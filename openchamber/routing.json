@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "enabled": false,
+  "minConfidence": 0.6,
+  "preserveCache": true,
+  "safetyNet": {
+    "enabled": false,
+    "threshold": 0.6
+  },
+  "fallback": {
+    "model": {
+      "providerID": "opencode-go",
+      "modelID": "glm-5.3-flash"
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "fields": {
+    "lightThemeId": {
+      "updatedAt": 1794566577516,
+      "value": "openchamber-light"
+    },
+    "darkThemeId": {
+      "updatedAt": 1794566577516,
+      "value": "openchamber-dark"
+    },
+    "notifyOnSubtasks": {
+      "updatedAt": 1794566577516,
+      "value": true
+    },
+    "notifyOnCompletion": {
+      "updatedAt": 1794566577516,
+      "value": true
+    },
+    "notifyOnPullRequests": {
+      "updatedAt": 1794566577516,
+      "value": true
+    },
+    "notifyOnError": {
+      "updatedAt": 1794566577516,
+      "value": true
+    },
+    "notifyOnQuestion": {
+      "updatedAt": 1794566577516,
+      "value": true
+    },
+    "notificationTemplates": {
+      "updatedAt": 1794566577516,
+      "value": {
+        "completion": {
+          "title": "",
+          "message": ""
+        },
+        "error": {
+          "title": "",
+          "message": ""
+        },
+        "question": {
+          "title": "",
+          "message": ""
+        },
+        "subtask": {
+          "title": "",
+          "message": ""
+        }
+      }
+    },
+    "favoriteModels": {
+      "updatedAt": 1794571826602,
+      "value": [
+        {
+          "providerID": "opencode-go",
+          "modelID": "glm-5.3-flash"
+        },
+        {
+          "providerID": "opencode-go",
+          "modelID": "deepseek-v4-pro"
+        },
+        {
+          "providerID": "opencode-go",
+          "modelID": "deepseek-v4.1-flash"
+        },
+        {
+          "providerID": "opencode",
+          "modelID": "glm-5.3-flash-free"
+        },
+        {
+          "providerID": "opencode",
+          "modelID": "deepseek-v4.1-flash-free"
+        },
+        {
+          "providerID": "deepseek",
+          "modelID": "deepseek-flash"
+        }
+      ]
+    },
+    "recentModels": {
+      "updatedAt": 1794572839817,
+      "value": [
+        {
+          "providerID": "opencode-go",
+          "modelID": "glm-5.3-flash"
+        },
+        {
+          "providerID": "deepseek",
+          "modelID": "deepseek-flash"
+        },
+        {
+          "providerID": "opencode-go",
+          "modelID": "deepseek-v4.1-flash"
+        },
+        {
+          "providerID": "opencode-go",
+          "modelID": "deepseek-v4-pro"
+        },
+        {
+          "providerID": "opencode",
+          "modelID": "deepseek-v4.1-flash-free"
+        }
+      ]
+    },
+    "hiddenModels": {
+      "updatedAt": 1794566637886,
+      "value": []
+    },
+    "collapsedModelProviders": {
+      "updatedAt": 1794566637886,
+      "value": []
+    },
+    "customProviderIcons": {
+      "updatedAt": 1794566637886,
+      "value": {}
+    },
+    "recentAgents": {
+      "updatedAt": 1794566637886,
+      "value": []
+    },
+    "favoriteAgents": {
+      "updatedAt": 1794566637886,
+      "value": []
+    },
+    "lastSelectedModel": {
+      "updatedAt": 1794572839817,
+      "value": "opencode-go/glm-5.3-flash"
+    },
+    "defaultModel": {
+      "updatedAt": 1794571891334,
+      "value": "opencode/deepseek-v4.1-flash-free"
+    },
+    "defaultAgent": {
+      "updatedAt": 1794566887533,
+      "value": "build"
+    },
+    "fallbackModel": {
+      "updatedAt": 1794572779959,
+      "value": "opencode-go/glm-5.3-flash"
+    },
+    "dictationEnabled": {
+      "updatedAt": 1794566918579,
+      "value": false
+    },
+    "recentEfforts": {
+      "updatedAt": 1794572813095,
+      "value": {
+        "opencode/deepseek-v4.1-flash-free": [
+          "default"
+        ],
+        "deepseek/deepseek-flash": [
+          "default"
+        ],
+        "opencode-go/deepseek-v4.1-flash": [
+          "default"
+        ],
+        "opencode-go/glm-5.3-flash": [
+          "default"
+        ],
+        "opencode-go/deepseek-v4-pro": [
+          "default"
+        ]
+      }
+    },
+    "lastUsedEfforts": {
+      "updatedAt": 1794572381184,
+      "value": {
+        "opencode/deepseek-v4.1-flash-free": null,
+        "deepseek/deepseek-flash": null,
+        "opencode-go/deepseek-v4.1-flash": null,
+        "opencode-go/glm-5.3-flash": null
+      }
+    },
+    "locale": {
+      "updatedAt": 1794568938051,
+      "value": "ja"
+    },
+    "usageSelectedModels": {
+      "updatedAt": 1794571968623,
+      "value": {
+        "opencode": [
+          "deepseek-v4.1-flash-free"
+        ]
+      }
+    }
+  }
+}
