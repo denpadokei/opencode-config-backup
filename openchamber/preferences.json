@@ -184,6 +184,10 @@
           "deepseek-v4.1-flash-free"
         ]
       }
+    },
+    "workStatusPanelEnabled": {
+      "updatedAt": 1794573720754,
+      "value": false
     }
   }
 }
