@@ -51,8 +51,12 @@
       }
     },
     "favoriteModels": {
-      "updatedAt": 1794571826602,
+      "updatedAt": 1794630952104,
       "value": [
+        {
+          "providerID": "opencode-go",
+          "modelID": "minimax-m3"
+        },
         {
           "providerID": "opencode-go",
           "modelID": "glm-5.3-flash"
@@ -80,12 +84,8 @@
       ]
     },
     "recentModels": {
-      "updatedAt": 1794572839817,
+      "updatedAt": 1794631580783,
       "value": [
-        {
-          "providerID": "opencode-go",
-          "modelID": "glm-5.3-flash"
-        },
         {
           "providerID": "deepseek",
           "modelID": "deepseek-flash"
@@ -93,6 +93,10 @@
         {
           "providerID": "opencode-go",
           "modelID": "deepseek-v4.1-flash"
+        },
+        {
+          "providerID": "opencode-go",
+          "modelID": "glm-5.3-flash"
         },
         {
           "providerID": "opencode-go",
@@ -117,35 +121,35 @@
       "value": {}
     },
     "recentAgents": {
-      "updatedAt": 1794566637886,
-      "value": []
+      "updatedAt": 1794629808873,
+      "value": [
+        "plan",
+        "build",
+        "orchestrator"
+      ]
     },
     "favoriteAgents": {
       "updatedAt": 1794566637886,
       "value": []
     },
     "lastSelectedModel": {
-      "updatedAt": 1794572839817,
-      "value": "opencode-go/glm-5.3-flash"
-    },
-    "defaultModel": {
-      "updatedAt": 1794571891334,
-      "value": "opencode/deepseek-v4.1-flash-free"
+      "updatedAt": 1794574917031,
+      "value": "opencode-go/deepseek-v4.1-flash"
     },
     "defaultAgent": {
-      "updatedAt": 1794566887533,
+      "updatedAt": 1794630368713,
       "value": "build"
     },
     "fallbackModel": {
-      "updatedAt": 1794572779959,
-      "value": "opencode-go/glm-5.3-flash"
+      "updatedAt": 1794626777161,
+      "value": "deepseek/deepseek-flash"
     },
     "dictationEnabled": {
       "updatedAt": 1794566918579,
       "value": false
     },
     "recentEfforts": {
-      "updatedAt": 1794572813095,
+      "updatedAt": 1794627999218,
       "value": {
         "opencode/deepseek-v4.1-flash-free": [
           "default"
@@ -154,6 +158,7 @@
           "default"
         ],
         "opencode-go/deepseek-v4.1-flash": [
+          "max",
           "default"
         ],
         "opencode-go/glm-5.3-flash": [
@@ -165,12 +170,12 @@
       }
     },
     "lastUsedEfforts": {
-      "updatedAt": 1794572381184,
+      "updatedAt": 1794629770740,
       "value": {
         "opencode/deepseek-v4.1-flash-free": null,
         "deepseek/deepseek-flash": null,
-        "opencode-go/deepseek-v4.1-flash": null,
-        "opencode-go/glm-5.3-flash": null
+        "opencode-go/glm-5.3-flash": null,
+        "opencode-go/deepseek-v4.1-flash": null
       }
     },
     "locale": {
@@ -186,8 +191,20 @@
       }
     },
     "workStatusPanelEnabled": {
-      "updatedAt": 1794573720754,
+      "updatedAt": 1794574589699,
+      "value": true
+    },
+    "sessionGoalDefaultBudgetEnabled": {
+      "updatedAt": 1794629663936,
       "value": false
+    },
+    "sessionGoalMaxAutoTurns": {
+      "updatedAt": 1794629678466,
+      "value": 200
+    },
+    "smallModelUseDefault": {
+      "updatedAt": 1794630352917,
+      "value": true
     }
   }
 }
