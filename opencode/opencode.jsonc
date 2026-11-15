@@ -18,14 +18,6 @@
         },
         "oauth": false
       },
-      "beatapi": {
-        "type": "remote",
-        "url": "https://beatapi.io/mcp",
-        "headers": {
-          "Authorization": "Bearer {env:BEATAPI_API_KEY}"
-        },
-        "oauth": false
-      },
       "microsoft-learn": {
         "type": "remote",
         "url": "https://learn.microsoft.com/api/mcp"
@@ -67,7 +59,7 @@
         "timeout": {
           "startup": 300000
         },
-        "disabled": true
+        "disabled": false
       },
       "beatSaberModdingTools": {
         "type": "local",
@@ -99,18 +91,28 @@
   ],
   "agents": {
     "opencode-memory-recall": {
-      "model": "opencode-go/qwen3.8-flash#low",
+      "model": "opencode-go/deepseek-v4.1-flash",
       "steps": 20
     },
     "opencode-memory-extract": {
-      "model": "opencode-go/minimax-m3.1-flash#low"
+      "model": "opencode-go/deepseek-v4.1-flash"
     },
     "opencode-memory-dream": {
-      "model": "opencode-go/qwen3.8-flash#medium"
+      "model": "opencode-go/deepseek-v4.1-flash"
+    },
+    "compaction": {
+      "model": "opencode-go/deepseek-v4.1-flash"
     }
   },
   "lsp": true,
   "compaction": {
     "auto": false
-  }
+  },
+  "policies": [
+    {
+      "action": "skill.use",
+      "resource": "beatapi",
+      "effect": "deny"
+    }
+  ]
 }

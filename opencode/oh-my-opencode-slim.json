@@ -66,8 +66,8 @@
     },
     "opencode-go": {
       "orchestrator": {
-        "model": "opencode-go/minimax-m3",
-        "variant": "thinking",
+        "model": "opencode-go/glm-5.3-flash",
+        "variant": "max",
         "skills": [
           "*"
         ]

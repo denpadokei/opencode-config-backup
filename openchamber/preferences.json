@@ -10,8 +10,8 @@
       "value": "openchamber-dark"
     },
     "notifyOnSubtasks": {
-      "updatedAt": 1794566577516,
-      "value": true
+      "updatedAt": 1794728972155,
+      "value": false
     },
     "notifyOnCompletion": {
       "updatedAt": 1794566577516,
@@ -51,8 +51,12 @@
       }
     },
     "favoriteModels": {
-      "updatedAt": 1794630952104,
+      "updatedAt": 1794632989462,
       "value": [
+        {
+          "providerID": "opencode-go",
+          "modelID": "glm-5.3"
+        },
         {
           "providerID": "opencode-go",
           "modelID": "minimax-m3"
@@ -84,12 +88,8 @@
       ]
     },
     "recentModels": {
-      "updatedAt": 1794631580783,
+      "updatedAt": 1794732688768,
       "value": [
-        {
-          "providerID": "deepseek",
-          "modelID": "deepseek-flash"
-        },
         {
           "providerID": "opencode-go",
           "modelID": "deepseek-v4.1-flash"
@@ -99,12 +99,16 @@
           "modelID": "glm-5.3-flash"
         },
         {
-          "providerID": "opencode-go",
-          "modelID": "deepseek-v4-pro"
+          "providerID": "deepseek",
+          "modelID": "deepseek-flash"
         },
         {
           "providerID": "opencode",
-          "modelID": "deepseek-v4.1-flash-free"
+          "modelID": "glm-5.3-flash-free"
+        },
+        {
+          "providerID": "opencode-go",
+          "modelID": "deepseek-v4-pro"
         }
       ]
     },
@@ -133,7 +137,7 @@
       "value": []
     },
     "lastSelectedModel": {
-      "updatedAt": 1794574917031,
+      "updatedAt": 1794666470115,
       "value": "opencode-go/deepseek-v4.1-flash"
     },
     "defaultAgent": {
@@ -149,7 +153,7 @@
       "value": false
     },
     "recentEfforts": {
-      "updatedAt": 1794627999218,
+      "updatedAt": 1794731525827,
       "value": {
         "opencode/deepseek-v4.1-flash-free": [
           "default"
@@ -162,20 +166,32 @@
           "default"
         ],
         "opencode-go/glm-5.3-flash": [
+          "max",
           "default"
         ],
         "opencode-go/deepseek-v4-pro": [
           "default"
+        ],
+        "opencode-go/glm-5.3": [
+          "max"
+        ],
+        "opencode-go/minimax-m3": [
+          "thinking"
+        ],
+        "opencode/glm-5.3-flash-free": [
+          "high"
         ]
       }
     },
     "lastUsedEfforts": {
-      "updatedAt": 1794629770740,
+      "updatedAt": 1794666448428,
       "value": {
         "opencode/deepseek-v4.1-flash-free": null,
-        "deepseek/deepseek-flash": null,
+        "opencode-go/deepseek-v4.1-flash": null,
+        "opencode-go/glm-5.3": "max",
         "opencode-go/glm-5.3-flash": null,
-        "opencode-go/deepseek-v4.1-flash": null
+        "opencode-go/minimax-m3": "thinking",
+        "deepseek/deepseek-flash": null
       }
     },
     "locale": {
@@ -204,6 +220,22 @@
     },
     "smallModelUseDefault": {
       "updatedAt": 1794630352917,
+      "value": true
+    },
+    "nativeNotificationsEnabled": {
+      "updatedAt": 1794728966587,
+      "value": true
+    },
+    "notificationMode": {
+      "updatedAt": 1794728980394,
+      "value": "always"
+    },
+    "defaultModel": {
+      "updatedAt": 1794728989141,
+      "value": "opencode-go/deepseek-v4.1-flash"
+    },
+    "gitmojiEnabled": {
+      "updatedAt": 1794729082188,
       "value": true
     }
   }
