@@ -28,6 +28,7 @@ New-Item -ItemType Directory -Force -Path $OpenCode, $OpenChamber | Out-Null
 # recursively and merged.
 $Items = @(
     @{ Src = 'opencode\opencode.jsonc';            Dst = Join-Path $OpenCode 'opencode.jsonc' },
+    @{ Src = 'opencode\AGENTS.md';                 Dst = Join-Path $OpenCode 'AGENTS.md' },
     @{ Src = 'opencode\dcp.jsonc';                 Dst = Join-Path $OpenCode 'dcp.jsonc' },
     @{ Src = 'opencode\cli.json';                  Dst = Join-Path $OpenCode 'cli.json' },
     @{ Src = 'opencode\oh-my-opencode-slim.json';  Dst = Join-Path $OpenCode 'oh-my-opencode-slim.json' },

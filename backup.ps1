@@ -34,6 +34,7 @@ $OpenChamber = Join-Path $env:USERPROFILE '.config\openchamber'
 # Relative destination inside this repo  ->  source (folder or file).
 $Items = @(
     @{ Dst = 'opencode\opencode.jsonc';            Src = Join-Path $OpenCode 'opencode.jsonc' },
+    @{ Dst = 'opencode\AGENTS.md';                 Src = Join-Path $OpenCode 'AGENTS.md' },
     @{ Dst = 'opencode\dcp.jsonc';                 Src = Join-Path $OpenCode 'dcp.jsonc' },
     @{ Dst = 'opencode\cli.json';                  Src = Join-Path $OpenCode 'cli.json' },
     @{ Dst = 'opencode\oh-my-opencode-slim.json';  Src = Join-Path $OpenCode 'oh-my-opencode-slim.json' },
