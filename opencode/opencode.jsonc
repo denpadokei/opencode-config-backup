@@ -91,17 +91,17 @@
   ],
   "agents": {
     "opencode-memory-recall": {
-      "model": "opencode-go/deepseek-v4.1-flash",
+      "model": "opencode-go/deepseek-v4.1-flash#low",
       "steps": 20
     },
     "opencode-memory-extract": {
-      "model": "opencode-go/deepseek-v4.1-flash"
+      "model": "opencode-go/deepseek-v4.1-flash#low"
     },
     "opencode-memory-dream": {
-      "model": "opencode-go/deepseek-v4.1-flash"
+      "model": "opencode-go/deepseek-v4.1-flash#low"
     },
     "compaction": {
-      "model": "opencode-go/deepseek-v4.1-flash"
+      "model": "opencode-go/deepseek-v4.1-flash#low"
     }
   },
   "lsp": true,
