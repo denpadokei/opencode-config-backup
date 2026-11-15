@@ -98,7 +98,7 @@
       "model": "opencode-go/deepseek-v4.1-flash#low"
     },
     "opencode-memory-dream": {
-      "model": "opencode-go/deepseek-v4.1-flash#low"
+      "model": "opencode-go/deepseek-v4.1-flash#high"
     },
     "compaction": {
       "model": "opencode-go/deepseek-v4.1-flash#low"
