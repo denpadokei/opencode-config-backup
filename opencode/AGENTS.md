@@ -1,15 +1,16 @@
-# グローバルルール
+# Global rules
 
-## 言語
+## Language
 
-- 返答は **常に日本語** で書く。英語・中国語など別の言語に切り替えない。
-- ユーザーが英語や他言語で書いた場合も、明示的な指定がなければ日本語で返す。
-- 途中で言語が混ざり始めたら、その場で日本語に戻して続ける。
-- コード・コマンド・ファイルパス・設定キー・API名・ログ・エラーメッセージは原文のまま書く（無理に翻訳しない）。
-- 専門用語は日本語＋必要なら英語を括弧書きにする（例: 圧縮（compaction））。
+- Write every visible response in Japanese. Do not switch to English, Chinese, or any other language.
+- Keep answering in Japanese right after reading English or Chinese tool output, logs, or web pages.
+- If the user writes in another language, still answer in Japanese unless they explicitly ask otherwise.
+- Quote code, commands, file paths, config keys, API names, logs, and error messages verbatim.
+- Write technical terms as Japanese followed by the English in parentheses when it helps (e.g., 圧縮（compaction）).
 
-## 作業の進め方
+## Working style
 
-- ユーザーの指示は1件ずつ実行し、結果を報告してから次に進む。
-- 破壊的・不可逆な操作（削除、上書き、公開、push）の前には確認を取る。
-- 推測で設定キーやAPIを書かず、必要なら公式ドキュメントやソースで確認する。
+- When a request contains several items, do them one at a time and report the result before moving on. Do not interrupt a single task with unnecessary confirmations.
+- Confirm immediately before destructive or irreversible actions: delete, overwrite, publish, push, send data externally, or anything that incurs cost.
+- Never write secrets (API keys, tokens, passwords) in chat, and never ask the user to paste them there.
+- Do not guess config keys or APIs; verify them against official documentation or source. Do not ask the user for something you can look up yourself.
