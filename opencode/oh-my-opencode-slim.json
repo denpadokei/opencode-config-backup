@@ -73,7 +73,7 @@
         ]
       },
       "oracle": {
-        "model": "opencode-go/deepseek-v4-pro",
+        "model": "opencode-go/glm-5.3",
         "variant": "high",
         "skills": [
           "simplify"
@@ -101,7 +101,7 @@
         "model": "opencode-go/mimo-v2.6-flash"
       },
       "arbiter": {
-        "model": "opencode-go/deepseek-v4-pro",
+        "model": "opencode-go/glm-5.3",
         "variant": "high"
       },
       "hunter": {
