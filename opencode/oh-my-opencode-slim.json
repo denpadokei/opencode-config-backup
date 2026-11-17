@@ -67,7 +67,7 @@
     "opencode-go": {
       "orchestrator": {
         "model": "opencode-go/deepseek-v4.1-flash",
-        "variant": "max",
+        "variant": "high",
         "skills": [
           "*"
         ]
@@ -80,13 +80,12 @@
         ]
       },
       "explorer": {
-        "model": "opencode-go/deepseek-v4.1-flash",
-        "variant": "high",
+        "model": "opencode-go/mimo-v2.6-flash",
         "skills": []
       },
       "designer": {
-        "model": "opencode-go/minimax-m3.1-flash",
-        "variant": "medium",
+        "model": "opencode-go/gpt-6-luna",
+        "variant": "high",
         "skills": []
       },
       "fixer": {
@@ -97,6 +96,21 @@
       "observer": {
         "model": "opencode-go/mimo-v2.6-flash",
         "skills": []
+      },
+      "validator": {
+        "model": "opencode-go/mimo-v2.6-flash"
+      },
+      "arbiter": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "variant": "high"
+      },
+      "hunter": {
+        "model": "opencode-go/deepseek-v4.1-flash",
+        "variant": "high"
+      },
+      "chronicler": {
+        "model": "opencode-go/glm-5.3-flash",
+        "variant": "low"
       },
       "marketplace": {
         "agents_add": [
