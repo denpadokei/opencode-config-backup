@@ -66,7 +66,7 @@
     },
     "opencode-go": {
       "orchestrator": {
-        "model": "opencode-go/glm-5.3-flash",
+        "model": "opencode-go/deepseek-v4.1-flash",
         "variant": "max",
         "skills": [
           "*"
@@ -97,6 +97,14 @@
       "observer": {
         "model": "opencode-go/mimo-v2.6-flash",
         "skills": []
+      },
+      "marketplace": {
+        "agents_add": [
+          "alvin/validator",
+          "capybearista/arbiter",
+          "capybearista/hunter",
+          "capybearista/chronicler"
+        ]
       }
     }
   }

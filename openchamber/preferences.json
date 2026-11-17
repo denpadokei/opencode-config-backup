@@ -88,11 +88,15 @@
       ]
     },
     "recentModels": {
-      "updatedAt": 1794732688768,
+      "updatedAt": 1794824138088,
       "value": [
         {
           "providerID": "opencode-go",
           "modelID": "deepseek-v4.1-flash"
+        },
+        {
+          "providerID": "opencode-go",
+          "modelID": "hy4-flash-free"
         },
         {
           "providerID": "opencode-go",
@@ -105,10 +109,6 @@
         {
           "providerID": "opencode",
           "modelID": "glm-5.3-flash-free"
-        },
-        {
-          "providerID": "opencode-go",
-          "modelID": "deepseek-v4-pro"
         }
       ]
     },
@@ -137,7 +137,7 @@
       "value": []
     },
     "lastSelectedModel": {
-      "updatedAt": 1794666470115,
+      "updatedAt": 1794824138088,
       "value": "opencode-go/deepseek-v4.1-flash"
     },
     "defaultAgent": {
@@ -153,7 +153,7 @@
       "value": false
     },
     "recentEfforts": {
-      "updatedAt": 1794731525827,
+      "updatedAt": 1794824182620,
       "value": {
         "opencode/deepseek-v4.1-flash-free": [
           "default"
@@ -162,6 +162,7 @@
           "default"
         ],
         "opencode-go/deepseek-v4.1-flash": [
+          "high",
           "max",
           "default"
         ],
@@ -180,18 +181,22 @@
         ],
         "opencode/glm-5.3-flash-free": [
           "high"
+        ],
+        "opencode-go/hy4-flash-free": [
+          "default"
         ]
       }
     },
     "lastUsedEfforts": {
-      "updatedAt": 1794666448428,
+      "updatedAt": 1794827998953,
       "value": {
         "opencode/deepseek-v4.1-flash-free": null,
-        "opencode-go/deepseek-v4.1-flash": null,
         "opencode-go/glm-5.3": "max",
         "opencode-go/glm-5.3-flash": null,
         "opencode-go/minimax-m3": "thinking",
-        "deepseek/deepseek-flash": null
+        "deepseek/deepseek-flash": null,
+        "opencode-go/hy4-flash-free": null,
+        "opencode-go/deepseek-v4.1-flash": "max"
       }
     },
     "locale": {
